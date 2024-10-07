@@ -1,0 +1,21 @@
+# POST http://localhost:3000/admin/createlist 
+# Authorization: Barier eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjY1ODI3OTd9.svh8e_uC42PFil33bxrE4dR0C6CPI3x5_0II-8Nloe0
+# content-type: application/json
+
+# {
+#     "name":"list2",
+#     "branch":"CSE",
+#     "year":2,
+#     "list":["sdf","sdf"]
+# }
+
+# POST http://localhost:3000/admin/deletelist 
+# Authorization: Barier eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjY1ODI3OTd9.svh8e_uC42PFil33bxrE4dR0C6CPI3x5_0II-8Nloe0
+# content-type: application/json
+
+# {
+#     "name":"ajaylist"
+# }
+
+GET  http://localhost:3000/admin/getlist/4
+Authorization: Barier eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjcwNzIxMzd9.biWO9vXvYXduIrxtO-rBTSVMElyFg_GxIgyRGIsB8Rs
